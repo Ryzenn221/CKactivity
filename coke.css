@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 14vh;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  gap: 1000px;
+}
+header ul{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0%;
+  text-decoration: none;
+  color: #ff0000;
+  margin: 0%;
+}
+header ul li a{
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: 700;
+}
+.logo img{
+  margin-top: 35px;
+  height: auto;
+  width: 120px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+  background: #fff;
+  overflow: hidden;
+  align-items: center;
+  padding: 0 10%;
+  display: flex
+}
+.circle {
+  width: 700px;
+  height: 700px;
+  background: #ff0000;
+  position: absolute;
+  z-index: 1;
+  border-radius: 350px;
+  right: -50px;
+  bottom: -30px;
+}
+.content {
+  position: absolute;
+  z-index: 2;
+  max-width: 500px;
+}
+.content h1 {
+  justify-content: first baseline;
+  font-size: 3rem;
+  color: #222;
+}
+.content p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+button {
+  background: #ff0000;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.coke-can {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  height: 600px;
+  z-index: 10;
+}
+.gallery{
+  text-align: center;
+}
+.gallery h1{
+  margin-top: 5%;
+  color: red;
+  font-size: xx-large;
+}
+.Ck{
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.ck{
+  margin-top: 7%;
+  justify-content: space-between;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  padding: 20px;
+  height: 500px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3 ease;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ck:hover{
+  transform: translateY(-10px);
+  box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+-webkit-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+-moz-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+}
+.ck p{
+  font-size: small;
+  font-weight: lighter;
+  text-align: left;
+}
+.ck h3{
+  text-align: left;
+  align-self: flex-start;
+  color: #ff0000;
+  font-weight: bold;
+  font-size: larger;
+}
+.ck button{
+  width: 100%;
+  text-align: center;
+}
+.ck p strong{
+  background-color: pink;
+  border-radius: 20px;
+  width: 100px;
+  color: red;
+  text-align: left;
+  align-self: flex-start;
+}
+.ck img{
+  max-width: 100%;
+  width: auto;
+  height: 250px;
+  text-align: center;
+}
