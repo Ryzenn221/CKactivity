@@ -1,0 +1,205 @@
+@media(max-width:480px){
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 12vh;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+  gap: 50px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  list-style: none;
+  padding: 0%;
+  text-decoration: none;
+  color: red;
+  margin-top: 350px;
+  margin-right: -15px;
+  gap: 20px;
+}
+header ul li a{
+    white-space: nowrap;
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: 700;
+}
+.logo img{
+  margin-top: 100px;
+  margin-left: -20px;
+  height: auto;
+  width: 120px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+  background: #fff;
+  overflow: hidden;
+  align-items: center;
+  padding: 0 10%;
+  display: flex
+}
+.circle {
+  width: 700px;
+  height: 700px;
+  background: #ff0000;
+  position: absolute;
+  z-index: 1;
+  border-radius: 350px;
+  right: -110px;
+  bottom: -600px;
+}
+.content {
+    text-align: center;
+  position: absolute;
+  z-index: 2;
+  max-width: 500px;
+  margin-top: -150px;
+  margin-right: 55px;
+ 
+}
+.content h1 {
+  justify-content: first baseline;
+  font-size: 2rem;
+  right: 200px;
+  color: #222;
+}
+.content p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+button {
+  background: #ff0000;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+  bottom: 500px;
+}
+.coke-can {
+  position: absolute;
+  right: 138px;
+  bottom: 160px;
+  height: 200px;
+  z-index: 10;
+}
+.gallery{
+  text-align: center;
+}
+.gallery h1{
+  margin-top: 5%;
+  color: red;
+  font-size: xx-large;
+}
+.Ck{
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.ck{
+  margin-top: 7%;
+  justify-content: space-between;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  padding: 20px;
+  height: 500px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3 ease;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ck:hover{
+  transform: translateY(-10px);
+  box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+-webkit-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+-moz-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+}
+.ck p{
+  font-size: small;
+  font-weight: lighter;
+  text-align: left;
+}
+.ck h3{
+  text-align: left;
+  align-self: flex-start;
+  color: #ff0000;
+  font-weight: bold;
+  font-size: larger;
+}
+.ck button{
+  width: 100%;
+  text-align: center;
+}
+.ck p strong{
+  background-color: pink;
+  border-radius: 20px;
+  width: 100px;
+  color: red;
+  text-align: left;
+  align-self: flex-start;
+}
+.ck img{
+  max-width: 100%;
+  width: auto;
+  height: 250px;
+  text-align: center;
+}
+}
+@media(min-width:768px){
+      .circle{
+        position: absolute;
+        bottom: -500px;
+        left: 30px;
+}
+.coke-can {
+    position: absolute; 
+    top: 47%;
+    left: 37%;
+    height: 250px;
+    width: 200px;
+}
+.content{
+    text-align: center;
+    top: 200px;
+    left: 127px;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    bottom: -115px;
+    left: -800px;
+}
+.logo img{
+    position: absolute;
+    top: -10px;
+    left: 320px;
+}
+}
+@media (min-width: 1025px) {
+ }
