@@ -1,4 +1,31 @@
-@media(max-width: 1024){
+@media(max-width: 1024px){
+  .logo img{
+    position: relative;
+    left: 20px;
+  }
+  .header{
+    display: flex;
+    align-items: center;  
+  }
+  .header ul{
+    position: absolute;
+    flex-direction: row;
+    white-space: nowrap;
+    margin-left: 650px;
+  }
+  .circle{
+    width: 550px;
+    height: 500px;
+  }
+  .coke-can{
+    height: 450px;
+    width: 400px;
+  }
+  .content{
+    position: absolute;
+    font-size: small;
+    left: 2%;
+  }
 }
 @media(max-width:768px){
       .circle{
@@ -25,8 +52,8 @@ header ul {
     position: relative;
     white-space: nowrap;
     text-align: center;
-    bottom: -115px;
-    left: -800px;
+    bottom: -70px;
+    left: -430px;
 }
 .logo img{
     position: absolute;
@@ -35,30 +62,23 @@ header ul {
 }
 }
 @media(max-width:480px){
-    * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 header{
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 12vh;
+  height: 13vh;
   background-color: white;
-  margin-left: -110px;
+  margin-left: -130px;
   z-index: 1;
 }
 header ul {
-    
   list-style: none;
   text-decoration: none;
   color: red;
   margin-right: 10px;
   z-index: 1;
-
 }
 header ul li a{
     flex-direction: column;
@@ -70,7 +90,6 @@ header ul li a{
   top: -10px;
   margin-top: 15px;
   left: 300px;
-
 }
 .circle {
   width: 700px;
